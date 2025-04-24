@@ -2,8 +2,8 @@
 #include<math.h>
 int main ()
 {
-       float altura, largura, area;
-       int litro;
+    float altura, largura, area;
+    int litro;
 
     printf("Digite a altura(em metros): ");
     scanf("%f", &altura);
@@ -11,9 +11,9 @@ int main ()
     printf("Digite a largura(em metros): ");
     scanf("%f", &largura);
 
-       area = (altura * largura);
+    area = (altura * largura);
 
-       litro = ceil(area/2);
+    litro = ceil(area/2);
 
 
     printf("A area da parede eh: %f", area);
@@ -23,12 +23,3 @@ int main ()
     return 0;
 
 }
-
-
-
-
-
-
-
-
-
